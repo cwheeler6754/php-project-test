@@ -1,0 +1,209 @@
+html {
+    background: lightseagreen;
+}
+
+body {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    margin: 20px;
+    text-align: center;
+    font-size: large;
+    color: black;
+}
+
+/***HEADER CSS***/
+
+.nav-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+  
+.nav-li {
+   float: left;
+}
+  
+.header-nav {
+    display: block;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+.nav-li .header-nav:hover {
+    background-color: lightslategrey;
+    color: white;
+}
+
+.column1, .column2 {
+    float: left;
+    width: 50%;
+    background-color: lightgray;
+    margin-top: 15px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column2 {
+    height: 69.5vh;
+    background-color: gray;
+}
+
+img {
+    width: 200px;
+    margin-left: 30%;
+}
+
+.column_2_img {
+    width: 140px;
+    margin-left: 30%;
+}
+
+h3 {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+/***BETTA CSS***/
+
+.home {
+    background: gray;
+}
+
+.home-h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: white;
+    margin: auto;
+    padding-top: 30px;
+    height: 10vh;
+}
+
+.home-article {
+    background: gainsboro;
+    border: solid 3px black; 
+}
+
+.home .home-article img {
+    min-width: 300px;
+    max-width: 100%;
+    padding-left: 5em;
+}
+
+.home-article h2, .home-article h3 {
+    text-align: center;
+}
+
+.home-article p {
+    text-align: center;
+}
+
+.home-article hr {
+    border-top: solid 3px lightseagreen;
+}
+
+/***FORM CSS***/
+
+input {
+    width:50%;
+    margin-bottom:20px;
+    margin-left: 25%;
+    margin-right: 25%;;
+    padding:5px;
+    height:30px;
+}
+
+textarea {
+    width:50%;
+    height:60px;
+    margin-top:10px;
+    margin-left: 25%;
+    margin-right: 25%;;
+    padding:5px;
+}
+
+#send {
+    width: 51%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 25%;
+    margin-right: 25%;;
+    background-color: lightseagreen;
+    font-size:18px;
+    border: none;
+}
+
+.form-label {
+    padding-left: 25%;
+}
+
+/***EXAMPLES PAGE CSS***/
+
+/* MOD 06 */
+
+#examples {
+    background: gainsboro;
+}
+
+#examples-main {
+    margin: 20px;
+}
+
+.mod06 {
+    border: grey 3px solid;
+}
+
+.mod06 h2 {
+    text-align: center;
+}
+
+.mod06 section {
+    margin: 20px;
+}
+
+.example-list {
+    margin-bottom: 10px;
+}
+
+.example-hr {
+    border-top: solid 3px lightseagreen;
+}
+
+/* MOD 07 */
+
+.mod07 {
+    border: #494949 3px solid;
+}
+
+.loops, .conState, .cusFun, .builtArray {
+    border: lightseagreen 2px dashed;
+}
+
+.loops_div, .conState_div, .cusFun_div, .builtArray_div {
+    margin: 20px;
+}
+
+.mod07 h2 {
+    text-align: center;
+}
+
+.mod07 section {
+    margin: 20px;
+}
+
+.mod07_p {
+    font-size: larger;
+}
